@@ -39,5 +39,5 @@ class PilhaRecentes:
             print('Nenhum jogo recente')
             return
         print('JOGOS RECENTES')
-        for i in range(len(self.dados - 1, -1, -1)):
+        for i in range(len(self.dados) - 1, -1, -1):
             self.dados[i].exibir()
